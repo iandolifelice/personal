@@ -25,12 +25,12 @@ function Header(props){
     return (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
             <Container>
-                <Link id="feliceHome" to="/" name="home" onClick={(e)=>setNavLink(e.target.name)}>Felice Iandoli</Link>
+                <Link id="feliceHome" to="/personal" name="home" onClick={(e)=>setNavLink(e.target.name)}>Felice Iandoli</Link>
                 
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Link className={classLink.research} to="/research" name="research" onClick={(e)=>setNavLink(e.target.name)}> {lang === "eng" ? "Research" : lang === "fr" ? "Recherche" : "Ricerca"} </Link>
-                        <Link className={classLink.teaching} to="/teaching" name="teaching" onClick={(e)=>setNavLink(e.target.name)}> {lang === "eng" ? "Teaching" : lang === "fr" ? "Enseignement" : "Insegnamento"} </Link>
+                        <Link className={classLink.research} to="/personal/research" name="research" onClick={(e)=>setNavLink(e.target.name)}> {lang === "eng" ? "Research" : lang === "fr" ? "Recherche" : "Ricerca"} </Link>
+                        <Link className={classLink.teaching} to="/personal/teaching" name="teaching" onClick={(e)=>setNavLink(e.target.name)}> {lang === "eng" ? "Teaching" : lang === "fr" ? "Enseignement" : "Insegnamento"} </Link>
                         {/* <Link className={classLink.conferences} to="/conferences" name="conferences" onClick={(e)=>setNavLink(e.target.name)}> {lang === "eng" ? "Conferences" : lang === "fr" ? "Conférences" : "Conferenze"} </Link> */}
                     </Nav>
                     <Nav>
