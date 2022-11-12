@@ -16,9 +16,9 @@ function App() {
       <Header navLink={navLink} setNavLink={setNavLink}/>
       <Routes>
         <Route path="/personal" element={<Home/>}/>
-        <Route path="/conferences" element={<Conferences/>}/>
-        <Route path="/research" element={<Research/>}/>
-        <Route path="/teaching" element={<Teaching/>}/>
+        <Route path="/personal/conferences" element={<Conferences/>}/>
+        <Route path="/personal/research" element={<Research/>}/>
+        <Route path="/personal/teaching" element={<Teaching/>}/>
       </Routes>
       <Footer setNavLink={setNavLink}/>
      
