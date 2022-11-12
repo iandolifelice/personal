@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header navLink={navLink} setNavLink={setNavLink}/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/personal" element={<Home/>}/>
         <Route path="/conferences" element={<Conferences/>}/>
         <Route path="/research" element={<Research/>}/>
         <Route path="/teaching" element={<Teaching/>}/>
