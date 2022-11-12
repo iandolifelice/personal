@@ -1,0 +1,28 @@
+li span{
+    font-style: italic;
+}
+
+.teaching{
+    text-align: left;
+}
+
+.teaching h2{
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.teaching .title{
+    font-weight: 700;
+    color:#006B88;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .teaching h2{
+        margin-top:2rem !important;
+        margin-bottom: 3rem !important;      
+}
+    .teaching{
+        margin-bottom:5rem !important;
+    }
+}

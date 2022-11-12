@@ -1,0 +1,173 @@
+img{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 6%;
+    position: relative;
+    top:2rem;
+    filter:drop-shadow(2px 4px 7px rgba(109, 87, 87, 0.26));
+}
+
+.home{
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.rowHome{
+    margin-bottom:3rem;
+}
+
+p, a{
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact a{
+    text-decoration: none !important;
+    color:#fb7521;
+}
+
+.contact a:hover{
+    color:#006B88;
+}
+
+
+.contact h2{
+    text-align: left;
+    margin-bottom: 0.5rem !important;
+    margin-top:2rem !important;
+    
+}
+
+.contact h4{
+    margin-bottom:2.5rem;
+    
+}
+
+.CV{
+    padding: 3px 25px;
+    border-radius: 20px;
+    background-color: #006B88;
+    color: white !important;
+    margin-right: 1rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    filter:drop-shadow(2px 4px 7px rgba(106, 106, 106, 0.296));
+}
+
+.CV:hover{
+    background-color: #fb7521;
+    color: white !important;
+
+}
+
+.divMail{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: left;
+    margin-bottom: 1.5rem;
+    margin-top:1rem;
+}
+
+#mail{
+    text-decoration: none;
+    color:black;
+}
+
+#description{
+    text-align:justify;
+}
+
+
+@media screen and (max-width: 912px){
+    .divMail{
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
+        margin-top:1rem;
+    }
+
+    img{
+        position: relative;
+        top:3.5rem;
+    }
+
+    .rowHome{
+        margin-bottom: 1rem !important;
+    }
+}
+
+
+@media screen and (max-width: 540px){
+    .contact{
+        margin-top: 3rem !important;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem !important;
+    }
+
+    .contact p{
+        text-align: center;
+    }
+
+    .contact h2{
+        font-size: 30px;
+    }
+
+    img{
+        position: relative;
+        top:0rem;
+    }
+
+    .divMail{
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        margin-top:1rem;
+    }
+
+    .CV{
+        margin-right: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 380px){
+    
+
+    
+
+    
+
+    
+
+    
+
+    .rowHome{
+        margin-bottom:1.5rem !important;
+    }
+}
+    
+

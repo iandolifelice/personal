@@ -1,0 +1,100 @@
+li, a, p{
+    font-size: 18px;
+}
+
+p{
+    margin-bottom:0.2rem !important;
+    position: relative;
+}
+
+.research a {
+    text-decoration: none !important;
+    color: #006B88 !important;
+    font-weight: 700;
+} 
+
+ .research a:hover{
+    color: #fb7521 !important;
+    
+}
+
+.research .arxiv{
+    padding: 3px 20px 5px ;
+    border-radius: 5px;
+    background-color:  #006B88;
+    color: rgb(255, 255, 255) !important;
+    margin-right: 1rem;
+    font-weight: 700;
+    display: block;
+    width:7rem;
+    text-align: center;
+    filter:drop-shadow(2px 4px 7px rgba(106, 106, 106, 0.296));
+}
+
+.research .arxiv:hover{
+    background-color:#fb7521;
+    color: rgb(255, 255, 255) !important;
+}
+
+.research .title{
+    font-weight: 700;
+    color:#006B88;
+    font-size: 20px;
+}
+
+
+section .research{
+    margin-top:3rem;
+    text-align: left;
+}
+
+.research h2{
+    text-align: left;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+    
+    
+}
+
+.research .buttons{
+    display: flex;
+    width:16rem;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.lien{
+    margin-bottom: 3rem;
+}
+
+.row{
+    margin-bottom:4rem;
+}
+
+.icon{
+    position: absolute;
+    left:-2rem;
+    line-height: inherit;
+    top:-0.2rem;
+    width: 3rem;
+}
+
+@media screen and (max-width: 1050px){
+    .research .arxiv{
+        margin-top: 1rem !important;
+        
+}
+}
+
+
+@media screen and (max-width: 750px){
+    .research h2{
+        margin-top:2rem !important;
+        margin-bottom: 3rem !important;      
+}
+    .research{
+        margin-bottom:5rem !important;
+    }
+}
+    
+
