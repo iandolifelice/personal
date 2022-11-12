@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.296c7cca.css",
+    "main.js": "/personal/static/js/main.46e2f9c6.js",
+    "static/js/787.f1efa9f7.chunk.js": "/personal/static/js/787.f1efa9f7.chunk.js",
+    "static/media/cv_iandoli.pdf": "/personal/static/media/cv_iandoli.148e46fda5a0b799201c.pdf",
+    "index.html": "/personal/index.html",
+    "main.296c7cca.css.map": "/personal/static/css/main.296c7cca.css.map",
+    "main.46e2f9c6.js.map": "/personal/static/js/main.46e2f9c6.js.map",
+    "787.f1efa9f7.chunk.js.map": "/personal/static/js/787.f1efa9f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296c7cca.css",
+    "static/js/main.46e2f9c6.js"
+  ]
+}
