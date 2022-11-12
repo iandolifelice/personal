@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <Header navLink={navLink} setNavLink={setNavLink}/>
       <Routes>
+        <Route path="/personal" element={<Home/>}/>
         <Route path="/personal/conferences" element={<Conferences/>}/>
         <Route path="/personal/research" element={<Research/>}/>
         <Route path="/personal/teaching" element={<Teaching/>}/>
-        <Route path="/personal" element={<Home/>}/>
       </Routes>
       <Footer setNavLink={setNavLink}/>
      
